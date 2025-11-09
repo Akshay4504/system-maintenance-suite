@@ -1,0 +1,87 @@
+[Sunday 09 November 2025 01:17:21 PM IST] Starting system update and cleanup...
+Hit:1 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:2 https://packages.microsoft.com/repos/code stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 https://apt.releases.hashicorp.com jammy InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu noble InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[Sunday 09 November 2025 01:17:35 PM IST] Starting system update and cleanup...
+Hit:1 https://apt.releases.hashicorp.com jammy InRelease
+Hit:2 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:3 https://packages.microsoft.com/repos/code stable InRelease
+Hit:4 http://in.archive.ubuntu.com/ubuntu noble InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[Sunday 09 November 2025 01:24:52 PM IST] Starting system update and cleanup...
+Hit:1 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:2 https://apt.releases.hashicorp.com jammy InRelease
+Hit:3 http://in.archive.ubuntu.com/ubuntu noble InRelease
+Hit:4 https://packages.microsoft.com/repos/code stable InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:7 http://security.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists...
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[Sunday 09 November 2025 01:27:56 PM IST] Starting system update and cleanup...
+[INFO] Running: sudo apt-get update -y
+Hit:1 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:2 https://packages.microsoft.com/repos/code stable InRelease
+Hit:3 https://apt.releases.hashicorp.com jammy InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu noble InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+[INFO] Running: sudo apt-get upgrade -y -o Dpkg::Options::=--force-confold
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get upgrade -y -o Dpkg::Options::=--force-confold' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get dist-upgrade -y
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get dist-upgrade -y' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get autoremove -y
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get autoremove -y' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get autoclean -y
+E: Could not get lock /var/cache/apt/archives/lock. It is held by process 7112 (apt-get)
+E: Unable to lock the download directory
+[WARN] Command 'sudo apt-get autoclean -y' returned a non-zero exit code. Continuing...
+[Sunday 09 November 2025 01:27:59 PM IST] ✅ System update and cleanup completed successfully!
+[Sunday 09 November 2025 01:50:56 PM IST] Starting system update and cleanup...
+[INFO] Running: sudo apt-get update -y
+Hit:1 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:2 https://apt.releases.hashicorp.com jammy InRelease
+Hit:3 https://packages.microsoft.com/repos/code stable InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu noble InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+[INFO] Running: sudo apt-get upgrade -y -o Dpkg::Options::=--force-confold
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get upgrade -y -o Dpkg::Options::=--force-confold' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get dist-upgrade -y
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get dist-upgrade -y' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get autoremove -y
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 7112 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+[WARN] Command 'sudo apt-get autoremove -y' returned a non-zero exit code. Continuing...
+[INFO] Running: sudo apt-get autoclean -y
+E: Could not get lock /var/cache/apt/archives/lock. It is held by process 7112 (apt-get)
+E: Unable to lock the download directory
+[WARN] Command 'sudo apt-get autoclean -y' returned a non-zero exit code. Continuing...
+[Sunday 09 November 2025 01:50:59 PM IST] ✅ System update and cleanup completed successfully!
